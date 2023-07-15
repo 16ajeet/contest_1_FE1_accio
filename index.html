@@ -3,11 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <!-- title of document that appear as tab name in browser -->
+    <title>Company Name.</title> 
+    
+    <!-- using arial font in entire doc to look similar as required output 
+    note - i cant find the exact font that was used in output so i used a similar one -->
+    <style> 
+        html * {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+    </style>
+
 </head>
+
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, eum?</p>
-    <p> meow meow </p>
-    <h1>this is test</h1>
+    <!-- for navbar -->
+    <nav style="width: 100%; background-color: black;color: aliceblue; height: 100px;"><br>
+        <a style="margin-top: 10%; margin-left: 3%; font-size: x-large;">CompanyName.</a>
+    </nav>
+   
+    <!-- for heading 1 use h1 and p tag -->
+    <div style="margin: 2%;">
+        <h1>Heading 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusamus laborum consequuntur ad, deserunt quos cumque. Eligendi, tenetur esse rerum mollitia ipsum tempore facere ratione temporibus repellendus, excepturi reprehenderit totam magni sequi nostrum possimus sed magnam nobis unde, repellat error ipsa? Quam tenetur soluta eos natus quod aliquid nobis iure beatae pariatur non quia, itaque assumenda placeat. Vitae quam, velit illo maxime facilis assumenda impedit a tenetur praesentium, quaerat aspernatur! Possimus deserunt veritatis ducimus velit, ipsum beatae, minima sed earum dolor consectetur assumenda hic iusto maiores, sunt repudiandae voluptatem nobis doloremque unde rerum fuga! Corrupti voluptatem ullam officiis minima est.</p>
+        <br>
+    </div>
+    
+
+    <!-- for learn more button -->
+    
+    <div style="margin: 2%;">
+        <a href="https://www.lipsum.com/">
+            <button style="margin: 0% ;height: 75px; width: 20%;background-color: black;color: aliceblue;">Learn More</button>
+        </a><br>
+    </div>
+    
+    <!-- for heading 2 use h1 then image tag  -->
+    <div style="margin: 2%;">
+        <br>
+        <h1>Heading 2</h1><br>
+        <img src="img01.png" alt="Image Loading Error" srcset="" height = "480" width="720">
+        <br><br>
+    </div>
+    
+    
+    <!-- ordered list section -->
+    <div style="margin: 2%;">
+        <h1>Ordered list</h1>
+        <ol>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+        </ol><br>
+    </div>
+    
+
+    <!-- unordered list section -->
+    <div style="margin: 2%;">
+        <h1>Unordered list</h1>
+        <ul>
+            <!-- write items of list using li tag -->
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi.</li>
+            <li>Lorem, ipsum.</li>
+        </ul><br>
+    </div>
+    
+
+    <!-- table section here  -->
+    <div>    
+        <h1>Table</h1>
+        
+        <table border="2px" style="width: 100%;" >
+            <!-- head of the table, fill head using th -->
+            <thead>
+                <tr>            <!--for row of table -->
+                    <th>SNO.</th>
+                    <th>StartUp Name</th>
+                    <th>StartUp Description</th>
+                </tr>
+            </thead>
+            
+            <!-- body of table -- fill data in row using td tag -->
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Wow India</td>
+                    <td>A StartUp with wow ideas</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Lorem, ipsum.</td>
+                    <td>Lorem, ipsum dolor. text</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Lorem, ipsum.</td>
+                    <td>Lorem, ipsum dolor.text</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Lorem, ipsum.</td>
+                    <td>Lorem, ipsum dolor.text</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Lorem, ipsum.</td>
+                    <td>Lorem, ipsum dolor.text</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Lorem, ipsum.</td>
+                    <td>Lorem, ipsum dolor.text</td>
+                </tr>
+                
+            </tbody>
+
+            <!-- footer of table -->
+            <tfoot style="background-color: black; color: aliceblue;" >
+                <tr>
+                    <td>7.</td>
+                    <td>Lorem, ipsum.</td>
+                    <td>Lorem, ipsum dolor.text</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
 </body>
 </html>
